@@ -57,6 +57,15 @@ module.exports = class BulbBotUtils {
 		response = response.replace(/({zone})/g, key.zone);
 		response = response.replace(/({until})/g, key.until);
 
+		response = response.replace(/({days_value})/g, key.days_value);
+		response = response.replace(/({hours_value})/g, key.hours_value);
+		response = response.replace(/({mins_value})/g, key.mins_value);
+		response = response.replace(/({secs_value})/g, key.secs_value);
+		response = response.replace(/({days_text})/g, key.days_text);
+		response = response.replace(/({hours_text})/g, key.hours_text);
+		response = response.replace(/({mins_text})/g, key.mins_text);
+		response = response.replace(/({secs_text})/g, key.secs_text);
+
 		response = response.replace(/({nick_old})/g, key.nick_old);
 		response = response.replace(/({nick_new})/g, key.nick_new);
 		response = response.replace(/({nick_length})/g, key.nick_length);

@@ -195,6 +195,20 @@
 	"ping_latency": "Bot latency is **{latency_bot}ms**\nWebSocket latency is **{latency_ws}ms**",
 
 	"uptime_uptime": "The current uptime is **{uptime}**",
+	"uptime_days": "{days_value} {days_text}",
+	"uptime_hours": "{hours_value} {hours_text}",
+	"uptime_mins": "{mins_value} {mins_text}",
+	"uptime_secs": "{secs_value} {secs_text}",
+
+	"days_single": "day",
+	"hours_single": "hour",
+	"mins_single": "minute",
+	"secs_single": "second",
+	"days_multi": "days",
+	"hours_multi": "hours",
+	"mins_multi": "minutes",
+	"secs_multi": "seconds",
+	"and": "and",
 
 	"license_license": "📜 This bot is licensed under the MIT license, for more info see the full license **[here](https://github.com/TestersQTs/Bulbbot/blob/master/LICENSE)**",
 
