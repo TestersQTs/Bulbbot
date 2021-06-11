@@ -10,11 +10,15 @@ module.exports = class extends Command {
 			description: "Unutes the selected user",
 			category: "Moderation",
 			usage: "!unmute <member> [reason]",
-			examples: ["unmute 190160914765316096", "unmute 190160914765316096 nice user", "unmute @mrphilip#0001 nice user"],
-			argList: ["member:Member"],
+			examples: [
+				"unmute 190160914765316096", 
+				"unmute 190160914765316096 nice user", 
+				"unmute @mrphilip#0001 nice user"],
+			argList: ["user:User"],
 			minArgs: 1,
 			maxArgs: -1,
 			clearance: 50,
+			clientPerms: ["MANAGE_ROLES"],
 		});
 	}
 

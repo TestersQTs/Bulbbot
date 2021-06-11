@@ -13,7 +13,7 @@ lib: Discord.JS                 # lib used for the bot
 # configs
 prefix: "!"                     # default prefix
 embedColor: "#7289DA"           # default embed color
-massCommandSleep: 850       
+massCommandSleep: 850           #
 
 # client
 client:

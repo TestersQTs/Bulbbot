@@ -214,6 +214,8 @@
 
 	"multimute_success": "{emote_success} {full_list} have been muted for **{reason}**",
 
+	"multiunmute_success": "{emote_success} {full_list} have been unmuted for **{reason}**",
+
 	"multiwarn_success": "{emote_success} {full_list} have been warned for **{reason}**",
 
 	"multivoicekick_success": "{emote_success} {full_list} have been voice-kicked for **{reason}**",

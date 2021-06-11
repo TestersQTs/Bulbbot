@@ -55,3 +55,4 @@ typings/
 .yarn-integrity
 .env
 start.bat
+*.code-workspace

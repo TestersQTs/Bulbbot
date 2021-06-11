@@ -53,11 +53,11 @@ module.exports = class extends Command {
 				target_tag: target.tag,
 				target_id: target.id,
 				reason,
-				until: Date.now() + parse(args[1]),
+				until: Date.now() + duration,
 			}),
 			reason,
 			muteRole,
-			Date.now() + parse(args[1]),
+			Date.now() + duration
 		);
 
 		let tempmuteId = await TempmuteCreate(message.guild.id, target.user.tag, target.user.id, reason, Date.now() + parse(args[1]));
