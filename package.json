@@ -39,7 +39,7 @@
 		"unicode": "^12.1.0"
 	},
 	"devDependencies": {
-		"@messageformat/core": "^3.0.0-beta.3",
+		"@messageformat/core": "^3.0.0",
 		"prettier": "^2.2.1",
 		"sequelize-cli": "^6.2.0"
 	}
