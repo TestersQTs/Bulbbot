@@ -17,7 +17,7 @@
 	},
 	"homepage": "https://github.com/TestersQTs/Bulbbot#readme",
 	"dependencies": {
-		"@hapi/hapi": "^20.1.2",
+		"@hapi/hapi": "^20.1.5",
 		"@messageformat/runtime": "^3.0.0-beta.2",
 		"@sentry/node": "^6.3.5",
 		"@sentry/tracing": "^6.3.5",
