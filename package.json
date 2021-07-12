@@ -20,7 +20,7 @@
 		"@hapi/hapi": "^20.1.2",
 		"@messageformat/runtime": "^3.0.0-beta.2",
 		"@sentry/node": "^6.3.5",
-		"@sentry/tracing": "^6.3.5",
+		"@sentry/tracing": "^6.9.0",
 		"axios": "^0.21.1",
 		"discord.js": "^12.5.3",
 		"discord.js-pagination": "^1.0.3",
